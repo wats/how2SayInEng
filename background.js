@@ -8,5 +8,5 @@ var parentId = chrome.contextMenus.create({
     "title" : "how2SayInEng",
     "type" : "normal",
     "contexts" : ["all"],
-    "onclick" : getClickHandler
+    "onclick" : getClickHandler()
 });
