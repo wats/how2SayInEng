@@ -2,7 +2,7 @@
     "name" : "how2SayInEng",
     "manifest_version": 2,
     "version" : "0.0.3",
-    "background" : "background.html",
+    "background" : { "page" : "background.html" },
     "permissions" : [
 	"contextMenus",
 	"http://*/*",
