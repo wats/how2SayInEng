@@ -1,0 +1,15 @@
+{
+    "name" : "how2SayInEng",
+    "manifest_version": 2,
+    "version" : "0.0.3",
+    "background" : "background.html",
+    "permissions" : [
+	"contextMenus",
+	"http://*/*",
+	"https://*/*"
+    ],
+    "icons" : {
+	"16" : "icon.png"
+    }
+	
+}
