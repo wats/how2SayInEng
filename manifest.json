@@ -1,13 +1,20 @@
 {
     "name" : "how2SayInEng",
     "manifest_version": 2,
-    "version" : "0.0.5",
+    "version" : "0.0.8",
     "background" : { "scripts" : ["background.js"] },
     "permissions" : [
 	"contextMenus",
 	"http://*/*",
 	"https://*/*"
     ],
+    "content_scripts": [{
+	"matches" : [ 
+	    "http://*/*",
+	    "https://*/*"
+	],
+	"js" : [ "content2.js"]
+    }],
     "icons" : {
 	"16" : "icon.png"
     }
